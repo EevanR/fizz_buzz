@@ -1,5 +1,7 @@
 def fizz_buzz(number)
-    if number % 15 == 0
+    if number.class == String
+        'Type a number'
+    elsif number % 15 == 0
         'fizzbuzz'
     elsif number % 5 == 0
         'buzz'
