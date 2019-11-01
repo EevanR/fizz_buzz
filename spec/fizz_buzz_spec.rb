@@ -12,7 +12,7 @@ describe 'fizz_buzz' do
     it "returns 'fizzbuzz' if number is divisible by 15" do
         expect(fizz_buzz(15)).to eq 'fizzbuzz'
     end
-    it "returns 'Type a number' if number is string" do
+    it "returns 'Type a number' if number is not equal to Integer" do
         expect(fizz_buzz('cat')).to eq 'Type a number'
     end
     
